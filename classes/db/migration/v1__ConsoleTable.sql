@@ -1,0 +1,6 @@
+CREATE TABLE console (
+    id UUID NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    creator VARCHAR(100) NOT NULL,
+    website VARCHAR(255)
+);

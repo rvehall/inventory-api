@@ -1,0 +1,6 @@
+CREATE TABLE creator (
+    id UUID NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    type VARCHAR(100) NOT NULL,
+    website VARCHAR(255)
+);
